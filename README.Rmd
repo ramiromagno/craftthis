@@ -1,0 +1,37 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# craftthis
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+C raft for your R package.
+
+`{craftthis}` is a workflow package: it automates repetitive tasks that arise
+during development of R packages that use C code.
+
+## Installation
+
+You can install the development version of `{craftthis}` like so:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("ramiromagno/craftthis")
+```
+
+## Usage
+
+`craft_*()` functions operate on the active project.

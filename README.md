@@ -34,7 +34,7 @@ code.
 craftthis::craft_package('mypkg')
 ```
 
-In the new session run load the newly created package and run `hello()`:
+In the new session load the newly created package and run `hello()`:
 
 ``` r
 devtools::load_all()

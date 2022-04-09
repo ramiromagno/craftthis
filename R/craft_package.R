@@ -57,10 +57,10 @@ craft_package <-
                         usethis.quiet = TRUE)
 
     hello_c_path <-
-      system.file('inst/templates/hello.c', package = 'craftthis', mustWork = TRUE)
+      system.file('templates/hello.c', package = 'craftthis', mustWork = TRUE)
 
     hello_r_path <-
-      system.file('inst/templates/hello.R', package = 'craftthis', mustWork = TRUE)
+      system.file('templates/hello.R', package = 'craftthis', mustWork = TRUE)
 
     hello_c_new_path <- fs::path(path, 'src', 'hello.c')
     hello_r_new_path <- fs::path(path, 'R', 'hello.R')

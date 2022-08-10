@@ -4,21 +4,25 @@ Title: Automate C Code Setup in Package Development
 Version: 0.1.0
 Authors@R: c(
     person(given = "Ramiro", family = "Magno", email = "ramiro.magno@gmail.com",
-    role = c("aut", "cre"), comment = c(ORCID = "0000-0001-5226-3441")),
-    person("CINTESIS",
-    role = c("cph", "fnd"))
+    role = c("aut", "cre"), comment = c(ORCID = "0000-0001-5226-3441"))
     )
 Description: Automate package and project setup tasks that are
     otherwise performed manually.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.1
+Roxygen: list(markdown = TRUE)
 Imports: 
+    cli,
+    desc,
     devtools,
     fs,
+    glue,
     pkgbuild,
     rlang,
-    rstudioapi,
+    rprojroot,
+    snakecase,
     usethis,
-    withr
+    withr,
+    xfun

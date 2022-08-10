@@ -44,3 +44,7 @@ hello()
 
 `craft_package()` automatically created a `hello()` R function that
 wraps a `hello_()` C function using `.Call()`.
+
+## Helpers
+
+-   `craft_module()`: creates a C source and header files pair.
